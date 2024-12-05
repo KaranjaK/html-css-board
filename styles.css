@@ -56,7 +56,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position: relative; */
 }
 .letter-1 {
   transform: rotate(45deg);
@@ -95,7 +94,14 @@
   flex-direction: column;
   text-align: center;
 }
-
+.shortie > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 2rem;
+}
 .arrow {
   /* Container dimensions */
   display: inline-block;
@@ -119,8 +125,21 @@
 .ctrl {
   margin-left: 3rem;
   border: 5px solid white;
+  border-radius: 20%;
   background-color: rgb(218, 216, 216);
-  padding: 1rem;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ctrl-text {
+  position: absolute;
+  top: 0;
+  right: 2.2rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 .plus {
   margin-left: 2rem;
