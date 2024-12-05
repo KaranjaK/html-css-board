@@ -52,13 +52,13 @@
   background-color: rgb(218, 216, 216);
   width: 4rem;
   height: 4rem;
-  transform: rotate(-45deg);
+  transform: rotate(-70deg);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .letter-1 {
-  transform: rotate(45deg);
+  transform: rotate(70deg);
 }
 .tilt2 {
   border: 5px solid white;
@@ -66,13 +66,13 @@
   background-color: rgb(218, 216, 216);
   width: 4rem;
   height: 4rem;
-  transform: rotate(45deg);
+  transform: rotate(70deg);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .letter-2 {
-  transform: rotate(-45deg);
+  transform: rotate(-70deg);
 }
 .norm {
   border: 5px solid white;
